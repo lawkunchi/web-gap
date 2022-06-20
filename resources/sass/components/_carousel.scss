@@ -12,22 +12,23 @@
   }
 
   .img-wrapper {
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
     position: absolute;
       left: 0; right: 0;
       .img-container {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         border-radius: 100%;
         box-shadow: inset 0px 3px 6px $black;
         background-color: $white;
         .img-container-inner {
-            width: 200px;
-            height: 200px;
+            width: 180px;
+            height: 180px;
             border-radius: 100%;
             background-size: 100%;
             background-repeat: no-repeat;
+            background-size: 100% 100%;
           }
       }
   }
@@ -59,6 +60,13 @@
     cursor: pointer;
     &:hover {
         color: $light-blue-2;
+    }
+    .ri-arrow-right-s-line {
+        margin-left: 10px;
+    }
+
+    .ri-arrow-left-s-line {
+        margin-right: 10px;
     }
   }
 

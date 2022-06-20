@@ -33,8 +33,8 @@ people to deliver exceptional results.</p>
                 
 
                 <div  class="d-flex justify-content-between align-items-center">
-                    <div v-if="prevText !== ''" @click="prev" class="arrow">{{prevText}}</div>
-                  <div  v-if="nextText !== ''" @click="next" class="arrow">{{nextText}}</div>
+                    <div v-if="prevText !== ''" @click="prev" class="arrow d-flex align-items-center"><i class="ri-arrow-left-s-line"></i>{{prevText}}</div>
+                  <div  v-if="nextText !== ''" @click="next" class="arrow d-flex align-items-center">{{nextText}} <i class="ri-arrow-right-s-line"></i></div>
                 </div>
 
               </div>

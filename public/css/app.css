@@ -19,25 +19,26 @@ nav .navbar-toggler {
   margin-left: 100px;
 }
 .carousel-container .img-wrapper {
-  width: 300px;
+  width: 250px;
   margin: 0 auto;
   position: absolute;
   left: 0;
   right: 0;
 }
 .carousel-container .img-wrapper .img-container {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 100%;
   box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
   background-color: #FCFCFC;
 }
 .carousel-container .img-wrapper .img-container .img-container-inner {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .carousel-container .dot {
   width: 12px;
@@ -65,6 +66,12 @@ nav .navbar-toggler {
 }
 .carousel-container .arrow:hover {
   color: #5D8FFF;
+}
+.carousel-container .arrow .ri-arrow-right-s-line {
+  margin-left: 10px;
+}
+.carousel-container .arrow .ri-arrow-left-s-line {
+  margin-right: 10px;
 }
 .carousel-container .p-dark {
   color: #1C212E;
