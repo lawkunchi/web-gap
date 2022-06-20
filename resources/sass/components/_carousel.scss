@@ -1,0 +1,158 @@
+
+.carousel-container {
+    height: 100vh;
+    font-family: $font-family-sans-serif;
+  .left {
+     height: 100vh;
+        // background: url('/images/left.png');
+      background-color: $blue;
+      .left-container {
+        margin-left:100px;
+      }
+  }
+
+  .img-wrapper {
+    width: 300px;
+    margin: 0 auto;
+    position: absolute;
+      left: 0; right: 0;
+      .img-container {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        box-shadow: inset 0px 3px 6px $black;
+        background-color: $white;
+        .img-container-inner {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            background-size: 100%;
+            background-repeat: no-repeat;
+          }
+      }
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    background-color: $light-blue;
+    border-radius: 100%;
+    margin-right: 22px;
+    cursor: pointer;
+    &.active {
+        background-color: $light-blue-2;
+    }
+    &:hover {
+        background-color: $light-blue-2;
+    }
+  }
+
+  .bottom {
+    position: fixed;
+    bottom: 100px;
+  }
+  
+  .arrow {
+    color: $light-blue;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+    &:hover {
+        color: $light-blue-2;
+    }
+  }
+
+  .p-dark {
+    color: $dark;
+  }
+
+  h1 {
+    font-size: 43px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    letter-spacing: 1.2px;
+    font-weight: 300;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h1, h3 {
+    color: $light-blue-2;
+  }
+  
+  p {
+    color: $whitey;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 21px;
+   
+  }
+
+  .wp-50 {
+        width: 50%;
+    }
+  
+  h6 {
+    color: $light-blue;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 50px;
+
+  }
+  
+  
+}
+
+@media only screen and (max-width: 720px) {
+    .carousel-container {
+        flex-direction: column !important;
+        .wp-50 {
+            width: 100% !important;
+        }
+
+        .img-wrapper {
+            position: relative !important;
+            width: 200px;
+            margin: 0 auto;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            .img-container {
+                width: 200px;
+                height: 200px;
+                .img-container-inner {
+                    width: 150px;
+                    height: 150px;
+                  }
+              }
+        }
+        .left {
+            padding-top: 5rem;
+            h1 {
+                margin-bottom: 0;
+            }
+            .left-container {
+                margin-left: 0 !important;
+              }
+        }
+        .bottom {
+            position: relative !important;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            bottom: unset;
+            margin: 0 auto;
+            width: 100% !important;
+            .dots {
+                justify-content: center !important;
+            }
+        }
+    }
+}
+  
+  
+  
+  
+  
+  
+ 
