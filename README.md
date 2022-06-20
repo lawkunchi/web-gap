@@ -9,7 +9,7 @@
     2. `npm install`
 - Rename the `.env.example` file to `.env` and add your database variables
 - Run `php artisan db:seed` to insert team members data in the DB
-- Lastly run php artisan serve and access the project in a web browser
+- Lastly run `php artisan serve` and access the project on the web browser
 
 ## API
 - Team members resource endpoint can be accessed at `/api/member` to perform CRUD operations
